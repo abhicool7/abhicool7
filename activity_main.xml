@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="224dp"
+        android:layout_height="40dp"
+        android:text="@string/smart_networking_app"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="211dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="204dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/lights"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="332dp"
+        android:text="@string/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="195dp"
+        android:text="@string/off_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/warm_yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="308dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/fan_speed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <RadioGroup
+        android:layout_width="89dp"
+        android:layout_height="265dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="81dp"
+            android:layout_height="59dp"
+            android:text="@string/_1"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_2"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_3"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_4"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_5"
+            tools:ignore="HardcodedText" />
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="134dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="63dp"
+        android:text="MODE OF NETWORK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
